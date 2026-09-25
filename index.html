@@ -7,21 +7,18 @@
 <meta name="description" content="Help, FAQs, and support for the Daily Dose app.">
 <style>
   :root{
-    --bg:#0e0f12; --card:#17181d; --line:#282a31; --ink:#f2e8d0; --ink2:#dcd1b6;
-    --muted:#98917f; --gold:#e4b54c; --gold2:#d2a03a; --gold-tint:rgba(228,181,76,.12);
-    --gold-line:rgba(228,181,76,.34);
+    --card:#17181d; --line:#282a31; --ink:#f2e8d0; --ink2:#dcd1b6;
+    --muted:#98917f; --gold:#e4b54c; --gold-tint:rgba(228,181,76,.12); --gold-line:rgba(228,181,76,.34);
   }
   *{box-sizing:border-box}
-  body{margin:0;background:radial-gradient(1000px 600px at 50% -10%,rgba(228,181,76,.08),transparent 60%),#0b0c0e;
+  body{margin:0;background:radial-gradient(1000px 600px at 50% -6%,rgba(228,181,76,.08),transparent 60%),#0b0c0e;
     color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;line-height:1.6;}
   a{color:var(--gold);text-decoration:none}
   a:hover{text-decoration:underline}
   .wrap{max-width:760px;margin:0 auto;padding:0 20px 72px}
-  header{padding:40px 0 26px;text-align:center}
-  .brand{display:inline-flex;align-items:center;gap:12px;justify-content:center}
-  .mark{width:44px;height:44px}
-  .brand h1{font-size:26px;letter-spacing:-.01em;margin:0}
-  .tag{color:var(--muted);font-size:14px;margin:10px 0 0}
+  header{padding:34px 0 26px;text-align:center}
+  .logo{height:118px;width:auto;display:block;margin:0 auto}
+  .tag{color:var(--muted);font-size:14px;margin:14px 0 0}
   nav{display:flex;gap:8px;justify-content:center;margin:22px 0 0;flex-wrap:wrap}
   nav a{font-size:13px;font-weight:600;padding:8px 14px;border:1px solid var(--line);border-radius:999px;color:var(--ink2)}
   nav a.active{background:var(--gold-tint);border-color:var(--gold-line);color:var(--gold)}
@@ -48,21 +45,12 @@
 <body>
 <div class="wrap">
   <header>
-    <div class="brand">
-      <svg class="mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-        <g stroke="#e4b54c" stroke-width="2" stroke-linecap="round">
-          <path d="M24 5v6M35 8l-3 5M13 8l3 5M40 18l-5 2M8 18l5 2"/>
-        </g>
-        <path d="M24 14a9 9 0 0 1 9 9H15a9 9 0 0 1 9-9Z" fill="#e4b54c"/>
-        <path d="M22 24h4v16h-4z" fill="#f2e8d0"/>
-        <path d="M18 29h12v4H18z" fill="#f2e8d0"/>
-      </svg>
-      <h1>Daily Dose</h1>
-    </div>
+    <img class="logo" src="logo.png" alt="Daily Dose logo">
     <p class="tag">Help &amp; Support Center</p>
     <nav>
       <a href="index.html" class="active">Help &amp; Support</a>
       <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
     </nav>
   </header>
 
@@ -118,6 +106,7 @@
     <div>
       <a href="index.html">Help &amp; Support</a>·
       <a href="privacy.html">Privacy Policy</a>·
+      <a href="terms.html">Terms of Service</a>·
       <a href="mailto:Ddosecontent@gmail.com">Contact</a>
     </div>
     <p style="margin-top:12px">© 2026 Daily Dose. All rights reserved.</p>
